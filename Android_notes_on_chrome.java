@@ -292,7 +292,13 @@ For Rtl fashion of writing in text use below.
 
 android:gravity="right"   
 -------------------------------------------------        
+# Dependency conflict error between test and original app.
+To resolve this we can force to use specified version of dependency. Add below lines in app.gradle file.
         
+ configurations.all {
+        resolutionStrategy.force "com.android.support:support-annotations:26.1.0" // replace by the dependency which is creating conflict.
+    }
+      
         
 
 
