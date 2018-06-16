@@ -68,7 +68,7 @@ eg. android:id="@+id/photo_image_view"
 import android.app.ProgressDialog;
 
 private ProgressDialog progressDialog;
-progressDialog = new ProgressDialog(this);
+progressDialog = new ProgressDialog(this); // If this does not work the try using getApplicationContext() and ActivityName.this.
 
 progressDialog.setMessage("Registration in progress...");
 progressDialog.show();
