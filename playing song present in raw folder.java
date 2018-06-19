@@ -1,4 +1,5 @@
 
+// name of the song present in row folder can have lowercase letters and underscore only.
 // stop already playing song
   if(mediaPlayer.isPlaying()){
       mediaPlayer.stop();
