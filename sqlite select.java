@@ -10,7 +10,7 @@
   while(c.moveToNext())
   {
   // get alarm values
-  if(fromActivity.equals("MainActivity")){
+  
       time = c.getString(1);
       ampm = c.getString(2);
       repeatType = c.getString(3);
