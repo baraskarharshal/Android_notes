@@ -1,3 +1,10 @@
+
+
+// Initializing db object
+dbInstance = DBSingleton.getInstance(getApplicationContext());
+db = dbInstance.getReadableDatabase();
+
+
 ContentValues initialValues = new ContentValues();
 initialValues.put("time",time);
 initialValues.put("ampm",ampm);
