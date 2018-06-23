@@ -298,7 +298,15 @@ To resolve this we can force to use specified version of dependency. Add below l
  configurations.all {
         resolutionStrategy.force "com.android.support:support-annotations:26.1.0" // replace by the dependency which is creating conflict.
     }
-      
+--------------------------------------------------------
+        
+Emulator build error - cant bind to local at some port number.
+        
+Open terminal and navigate to cd ..\android-sdk-windows\platform-tools
+now stop and then start server.
+adb kill-server
+adb start-server
+    
         
 
 
