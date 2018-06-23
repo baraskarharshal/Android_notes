@@ -306,7 +306,13 @@ Open terminal and navigate to cd ..\android-sdk-windows\platform-tools
 now stop and then start server.
 adb kill-server
 adb start-server
-    
+------------------------------------------------------------------------------
+
+Emulator issue - not loading appp. Microphone connectivity issue - Failed to load input stream.
+     
+In AVD goto settings > Apps and Notification > Open Google app and disable it. 
+Now app will launch just fine.
+----------------------------------------------------------------------------------------
         
 
 
